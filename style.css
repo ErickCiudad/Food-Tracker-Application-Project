@@ -1,0 +1,37 @@
+body{background-image: url("http://trichilofoods.com/site/wp-content/uploads/2015/06/veggies.jpg");
+background-size: 100%;
+}
+
+
+#header{
+    background-color: whitesmoke;
+    opacity: 0.75;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#content{
+    background-color: whitesmoke;
+    opacity: 0.75;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+table{
+    position: relative;
+    left: 34%;
+}
+
+#table{
+    background-color: lightskyblue;
+    width: 65%;
+    position: relative;
+    right: 80px;
+    text-align: center;
+
+}

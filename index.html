@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="header">
+
+    <h1>Food Tracker</h1>
+
+        <a href="index.html"><button>Home</button></a>
+
+
+</div>
+<p><br></p>
+<div id="content">
+    <form>
+            Name: <input id="name"/>
+            Description: <input id="desc"/>
+            Date: <input id="date"/>
+            Expiration: <input id="exp"/>
+            <input type="button" value="Submit" onclick="update()"/>
+        </form>
+    <table id="table" border="1" style="position: relative; left: 150px"  >
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Date</td>
+            <td>Expiration in days</td>
+        </tr>
+    </table>
+    <script>
+        var numberInput =  document.getElementById("number");
+        var numberOutput = document.getElementById("number");
+        function updateNumber() {
+        }
+        var newNumber = getInputItem();
+        updateTable(newNumber)
+
+        function getInputItem() {
+            var number = {
+                number: nameInput.value
+            };
+            return number;
+        }
+    </script>
+    <p id="number"></p>
+    <script type="text/javascript" src="scripts.js"></script></div>
+</body>
+</html>

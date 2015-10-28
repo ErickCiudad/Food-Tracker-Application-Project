@@ -33,5 +33,11 @@ table{
     position: relative;
     right: 80px;
     text-align: center;
+    border-color: dodgerblue;
 
+}
+
+button{
+    border-color: dodgerblue;
+    background-color: lightskyblue;
 }
